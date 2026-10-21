@@ -269,6 +269,10 @@ li + li {
   display: flex;
   gap: 1.25rem;
 }
+.site-foot .ai-note {
+  flex-basis: 100%;
+  margin: 0;
+}
 .site-foot a {
   color: var(--ink-soft);
 }
