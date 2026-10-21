@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "journal": "65666768696a6b6c6d6e6f7071727374",
+  "device": "c9cacbcccdcecfd0d1d2d3d4d5d6d7d8",
+  "name": "phone",
+  "genesis": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+  "sequence": 2,
+  "heads": [
+    "7f3ddc101a554c24340229aa61e3c21206a8b3913484ab4108b3f44623ad7f86",
+    "95a750727bef2732ac30a1c58b2ea1b95fa540771de2c0e5e40134a4c1dd3b78"
+  ],
+  "artifacts": {
+    "entry:2026-03-02": {
+      "digest": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3"
+    },
+    "entry:2026-03-03": {
+      "digest": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3"
+    },
+    "entry:2026-03-04": {
+      "digest": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3"
+    },
+    "entry:2026-03-05": {
+      "digest": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3"
+    },
+    "entry:2026-04-02": {
+      "digest": "sha256:bb60601b23131e8ed6441d9e23a8c7b3607ca7929e5c047ebdbdfb2a215cd72b",
+      "transaction": "85ce1b9f6676c2313639fbf0b8aa49a6e55e2228197870f8b17cd5e59c16a60a"
+    },
+    "record:178c187205f3e206994a3063c460e0d47f35aab9fa818ec1f1d80b9b539a4783": {
+      "digest": "sha256:3ff6bb90819a70fbad30a061403a7e29408f9223316bc01c825b8e41b3cbd2d4",
+      "transaction": "95a750727bef2732ac30a1c58b2ea1b95fa540771de2c0e5e40134a4c1dd3b78",
+      "order": {
+        "depth": 2,
+        "transaction": "95a750727bef2732ac30a1c58b2ea1b95fa540771de2c0e5e40134a4c1dd3b78",
+        "index": 0
+      }
+    },
+    "record:1ce202a0fb25f11b2827bbdceff8d567ee35357d9f24acf6baae71cec1a7f9f7": {
+      "digest": "sha256:7ab1c81798f73b8067879d6970d731404a710806c73ed9adc735e2d0d7b78fe0",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 9
+      }
+    },
+    "record:6e4ab905a57c048b0d41f62c9e620591a8f552321f97ae89d4563929a318b8bc": {
+      "digest": "sha256:37e6b73bb7cfebc40f118e09f966eb420dd19a5d36ba922c3e25e424e4cbe852",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 6
+      }
+    },
+    "record:93e396f08d883ddd1017aaf0c03be0338d9d63202056c618e747ec5dbad17f68": {
+      "digest": "sha256:0262679e8ad185b3ea94418c990593853e1658ca7b5dfdab17ea8bff9b30ce8a",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 4
+      }
+    },
+    "record:9778153b0f3af26a3d97d0abf967c62596fdf85b804d21cc1aab09f19943a0b2": {
+      "digest": "sha256:ec394c49a5373e959c17936636f6cc5320ec6a062eee35385e957df8fd4b0a15",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 5
+      }
+    },
+    "record:b3475c1e4c1c6cf3176eb495ab706aeb198fd98a8d0e3ed866d15526fbdef4a1": {
+      "digest": "sha256:da6ed2c18e2bd5844f94844c404d8b0074d00ce4da6aaeaefebc2e3189d41eeb",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 10
+      }
+    },
+    "record:b3e507271019d7ff608cf649a1c76dcec6b915790c1ed00e266775a76c5fbb64": {
+      "digest": "sha256:7497c896d2dcc183454eb0cae5345314db2a648312c08b719e8ad1bdb5aa59de",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 11
+      }
+    },
+    "record:bdbf87f4a62ceb502ed48467311d54c1b593902df44642e51f0da85214c9c379": {
+      "digest": "sha256:e7dba63a95b83ff6a7371b1801f26816c215802a700fe3928d59b470b3a414ef",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 8
+      }
+    },
+    "record:c28b37e2084fb805977c5559a8519ecbd15e5397286853fb6b9cedaab7aeda2f": {
+      "digest": "sha256:0db9d3745ddad69b0b242271307c01448f29207975e251bfdcf21d81fff044ce",
+      "transaction": "7f3ddc101a554c24340229aa61e3c21206a8b3913484ab4108b3f44623ad7f86",
+      "order": {
+        "depth": 2,
+        "transaction": "7f3ddc101a554c24340229aa61e3c21206a8b3913484ab4108b3f44623ad7f86",
+        "index": 0
+      }
+    },
+    "record:xd9c0c539e42da8bfc6632e09126d9285f3362982a93edaa3dadc7243af4f256a": {
+      "digest": "sha256:d9c0c539e42da8bfc6632e09126d9285f3362982a93edaa3dadc7243af4f256a",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+      "order": {
+        "depth": 0,
+        "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3",
+        "index": 7
+      }
+    },
+    "settings": {
+      "digest": "sha256:38b7f03cfa4aaca7a6adcc25a50a209ba247e475dce24b3e98644a8c1552aa65",
+      "transaction": "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3"
+    }
+  },
+  "pending": {},
+  "suspended": {},
+  "conflicts": {
+    "entry:2026-04-02": {
+      "base": "absent",
+      "theirs": [
+        {
+          "digest": "sha256:71b8f2699215613c343a298946fb1e40aa6791ecf878d62a11f2816b73872408",
+          "transaction": "a2bba63ac2bd3b06e440120f6572ae5d60dc405aab3ad6ace61d48623522b33d"
+        }
+      ],
+      "reason": "it was written independently on two devices, and the two do not say the same thing"
+    }
+  },
+  "disputes": [
+    {
+      "effective": "2026-04-02",
+      "records": [
+        "178c187205f3e206994a3063c460e0d47f35aab9fa818ec1f1d80b9b539a4783",
+        "c28b37e2084fb805977c5559a8519ecbd15e5397286853fb6b9cedaab7aeda2f"
+      ]
+    }
+  ]
+}

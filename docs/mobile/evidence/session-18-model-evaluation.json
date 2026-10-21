@@ -1,0 +1,36 @@
+{
+  "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+  "desktop_fingerprint": "e7f6751c8fe2bba3c6b8e6cc9878eff52ae9b0ed0d1bb3d2555bf5d6f56ab884",
+  "device": {
+    "build": "1792197341",
+    "model": "iPhone14,2",
+    "simulator": false,
+    "system": "iOS 27.0.1"
+  },
+  "finished": {
+    "at": "2026-10-17T00:35:47Z",
+    "battery": 0.8999999761581421,
+    "thermal": "nominal"
+  },
+  "format": "seneca-model-evaluation-record",
+  "format_version": 1,
+  "on_device": "deviceNotEligible",
+  "private_cloud": "not-entitled",
+  "prompts": 14,
+  "prompts_sha256": "0036b6fda2d1d852bc2b436e18daaa17e5dbbd185c18d2c20a32f8219fa3d9f6",
+  "recorded_at": "2026-10-17T00:36:20Z",
+  "replay_format": "seneca-apple-models-replay",
+  "replayed_at": "2026-10-17T00:36:20+00:00",
+  "responses_sha256": "ad112356a92d605d58a6b76f62352a001e0c000b41b31fb691e788174dcaca50",
+  "results": [],
+  "seneca_from_sources": true,
+  "seneca_sha256": "0d867608b9409caf77f6dc3562bf70e785c522f3e17206b8da6db032852d90ac",
+  "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+  "started": {
+    "at": "2026-10-17T00:35:47Z",
+    "battery": 0.8999999761581421,
+    "thermal": "nominal"
+  },
+  "summary": {},
+  "udid": "00000000-0000000000000000"
+}

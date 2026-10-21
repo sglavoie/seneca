@@ -1,0 +1,132 @@
+# XcodeGen spec for the iPhone app. ios/scripts/generate-project.sh builds the
+# Go bridge and generates ios/SenecaMobile.xcodeproj from this file with the
+# XcodeGen ios/XCODEGEN_VERSION pins; the generated project is gitignored, so
+# edit this file instead.
+name: SenecaMobile
+options:
+  bundleIdPrefix: io.sglavoie
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+packages:
+  # The typed engine adapter and the gomobile XCFramework it wraps.
+  SenecaEngine:
+    path: SenecaEngine
+  # Recording and on-device transcription, vendored from an earlier app
+  # (Packages/Capture/PROVENANCE.md).
+  Capture:
+    path: Packages/Capture
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "26.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+# The UI tests drive the app from outside and stop and relaunch it, so they
+# run from a scheme of their own, on a simulator only; the SenecaMobile scheme
+# stays the app and its hosted suite, which also run on an iPhone.
+schemes:
+  SenecaMobileUITests:
+    build:
+      targets:
+        SenecaMobile: all
+        SenecaMobileUITests: [test]
+    test:
+      targets:
+        - SenecaMobileUITests
+targets:
+  SenecaMobile:
+    type: application
+    platform: iOS
+    sources:
+      - path: SenecaMobile
+    settings:
+      base:
+        PRODUCT_NAME: Seneca
+        PRODUCT_MODULE_NAME: SenecaMobile
+        PRODUCT_BUNDLE_IDENTIFIER: io.sglavoie.seneca.mobile
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Seneca
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        # Only the encryption iOS itself provides (HTTPS, the Keychain, file
+        # protection) and hashing: exempt, so TestFlight asks nothing.
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: "NO"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.lifestyle
+        # Spoken reflections: the microphone, and recording that keeps going
+        # when the screen locks (UIBackgroundModes audio, in Info.plist, which
+        # has no INFOPLIST_KEY_ setting; Xcode merges it with these).
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "Seneca records your spoken reflection on this iPhone and transcribes it here. The recording never leaves the iPhone."
+        INFOPLIST_FILE: SenecaMobile/Info.plist
+        TARGETED_DEVICE_FAMILY: "1"
+    dependencies:
+      - package: SenecaEngine
+        product: SenecaEngine
+      - package: Capture
+        product: CaptureCore
+      - package: Capture
+        product: CaptureApple
+    scheme:
+      testTargets:
+        - SenecaMobileTests
+  # Hosted in the app, so it runs the app's own engine service inside the
+  # app's container, on a simulator and on a physical iPhone alike. The
+  # synthetic journal and the round-trip scenario travel in the bundle.
+  SenecaMobileTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SenecaMobileTests
+      # The vendored simulated recorder and transcriber, compiled into the
+      # bundle rather than linked: CaptureCore then resolves to the app's
+      # own copy, so an error a simulated device throws is the type the app
+      # catches.
+      - path: Packages/Capture/Sources/CaptureTestSupport
+      - path: ../mobile/testdata/roundtrip
+        type: folder
+        buildPhase: resources
+      - path: ../mobile/testdata/browsing
+        type: folder
+        buildPhase: resources
+      - path: ../mobile/testdata/conflicted
+        type: folder
+        buildPhase: resources
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: io.sglavoie.seneca.mobile.tests
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Seneca.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seneca
+        BUNDLE_LOADER: $(TEST_HOST)
+    dependencies:
+      - target: SenecaMobile
+      - package: SenecaEngine
+        product: SenecaEngine
+  # Drives the built app on a simulator: a journal staged in the runner's own
+  # directory, handed to the app through its launch environment.
+  SenecaMobileUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SenecaMobileUITests
+      - path: ../mobile/testdata/roundtrip
+        type: folder
+        buildPhase: resources
+      - path: ../mobile/testdata/browsing
+        type: folder
+        buildPhase: resources
+      - path: ../mobile/testdata/conflicted
+        type: folder
+        buildPhase: resources
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: io.sglavoie.seneca.mobile.uitests
+        # XCUIElement queries are not Sendable; the tests are single-threaded.
+        SWIFT_VERSION: "5.0"
+        TEST_TARGET_NAME: SenecaMobile
+    dependencies:
+      - target: SenecaMobile

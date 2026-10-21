@@ -1,0 +1,24 @@
+Monthly review — 2026-03-01 to 2026-03-31
+Saved 2026-03-31T21:00:00Z  id b3e507271019
+
+Synthetic monthly review.
+
+
+Weekly review — 2026-03-02 to 2026-03-08
+Saved 2026-03-09T07:00:00Z  id bdbf87f4a62c  revises 9778153b0f3a
+
+Synthetic weekly review, revised the next morning.
+
+
+Weekly review — 2026-03-02 to 2026-03-08
+Saved 2026-03-08T20:00:00Z  id 9778153b0f3a
+
+Synthetic weekly review.
+
+## A heading inside a review body
+
+It does not start a record.
+
+---
+
+Neither does a rule.

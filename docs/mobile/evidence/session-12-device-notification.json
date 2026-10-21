@@ -1,0 +1,100 @@
+{
+  "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+  "build": {
+    "executables": {
+      "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "c5c586bef597a37cdd120fd22d1d8df74b0a58accde3df19a74d462125ec5eaa",
+      "Seneca": "b1f7a75952d748258065a08f265211478169f00002da70f23ad0d7e24ca7db3b",
+      "Seneca.debug.dylib": "80c763e99d64eda7d6471dde91b8e0cf6ef0fd12c601bad10a58728031a58dd0",
+      "__preview.dylib": "20f877dea2fa0d5f466141899b7439f851ee32dac2b75b51d5422dcfb207355d"
+    },
+    "number": "1792197048"
+  },
+  "deliver": {
+    "reported": {
+      "bridge_version": 5,
+      "bundle_build": "1792197048",
+      "bundle_identifier": "io.sglavoie.seneca.mobile",
+      "complete": [
+        "2026-10-16"
+      ],
+      "delivered": {
+        "delivered_at": "2026-10-17T00:33:00.037Z",
+        "identifier": "seneca.evidence.2026-10-16.1833",
+        "in_notification_center": true,
+        "presented": true
+      },
+      "device_model": "iPhone (iPhone14,2)",
+      "executables": {
+        "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "c5c586bef597a37cdd120fd22d1d8df74b0a58accde3df19a74d462125ec5eaa",
+        "Seneca": "b1f7a75952d748258065a08f265211478169f00002da70f23ad0d7e24ca7db3b",
+        "Seneca.debug.dylib": "80c763e99d64eda7d6471dde91b8e0cf6ef0fd12c601bad10a58728031a58dd0",
+        "__preview.dylib": "20f877dea2fa0d5f466141899b7439f851ee32dac2b75b51d5422dcfb207355d"
+      },
+      "passed": true,
+      "pending_after_save": [],
+      "permission": "allowed",
+      "permission_before": "allowed",
+      "phase": "deliver",
+      "run": "notify-20261017T003042Z-57269",
+      "saved_at": "2026-10-17T00:33:00.827Z",
+      "scheduled": [
+        {
+          "fire_at": "2026-10-17T00:33:00.000Z",
+          "identifier": "seneca.evidence.2026-10-16.1833"
+        },
+        {
+          "fire_at": "2026-10-17T00:35:00.000Z",
+          "identifier": "seneca.evidence.2026-10-16.1835"
+        }
+      ],
+      "scheduled_count": 14,
+      "simulator": false,
+      "suppressed": {
+        "checked_at": "2026-10-17T00:35:30.081Z",
+        "due_at": "2026-10-17T00:35:00.000Z",
+        "identifier": "seneca.evidence.2026-10-16.1835",
+        "in_notification_center": false,
+        "presented": false
+      },
+      "system_version": "27.0.1",
+      "time_zone": "UTC",
+      "today": "2026-10-16"
+    },
+    "xcresult": {
+      "devices": [
+        {
+          "id": "00000000-0000000000000000",
+          "os_version": "27.0.1",
+          "platform": "iOS"
+        }
+      ],
+      "expected_failures": 0,
+      "failed": 0,
+      "passed": 1,
+      "result": "Passed",
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "testAReminderIsDeliveredAndASaveCancelsTheNext()",
+          "result": "Passed"
+        }
+      ],
+      "total": 1
+    }
+  },
+  "device": {
+    "marketing_name": "iPhone 13 Pro",
+    "model": "iPhone14,2",
+    "name": "iPhone",
+    "os_version": "27.0.1",
+    "reality": "physical",
+    "signing_team": "ABCDE12345",
+    "udid": "00000000-0000000000000000"
+  },
+  "format": "seneca-mobile-notification",
+  "format_version": 1,
+  "recorded_at": "2026-10-17T00:30:52+00:00",
+  "run": "notify-20261017T003042Z-57269",
+  "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+  "target": "device"
+}

@@ -1,0 +1,140 @@
+{
+  "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+  "device": {
+    "marketing_name": "iPhone 13 Pro",
+    "model": "iPhone14,2",
+    "name": "iPhone",
+    "os_version": "27.0.1",
+    "reality": "physical",
+    "signing_team": "ABCDE12345",
+    "udid": "00000000-0000000000000000"
+  },
+  "format": "seneca-mobile-roundtrip",
+  "format_version": 1,
+  "mac": {
+    "machine": "arm64",
+    "os_version": "27.0.1"
+  },
+  "phases": {
+    "reopen": {
+      "build": {
+        "executables": {
+          "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "498b70a71078d3d80be6030347248a74c41c0ef0840e61103a26a9680434386b",
+          "Seneca": "32095b1fd2a58657684b73a10a64ec2722d9c501a44a9b5ccd8b1e063546d66b",
+          "Seneca.debug.dylib": "f7a1d6700fbaddc150077e3f34da9297a67b177feab924c43a37ccfefbfed171",
+          "__preview.dylib": "59976a56063bdc06899bee531ba9ca5e3fb45cb0f8f6b39029c359554b9a1679"
+        },
+        "number": "1792196711"
+      },
+      "reported": {
+        "archive_sha256": "9f6cf2eb096bd071b6b5708f3d56ef02d02b4b12b1ab041f597ec8350be5c51c",
+        "bridge_version": 5,
+        "bundle_build": "1792196711",
+        "bundle_identifier": "io.sglavoie.seneca.mobile",
+        "bundle_version": "0.1.0",
+        "container_relative_journal": "Library/Application Support/SenecaEvidence/20261017T002510Z-9649/journal",
+        "device_model": "iPhone (iPhone14,2)",
+        "device_name": "iPhone",
+        "entry_count": 5,
+        "entry_revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+        "executables": {
+          "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "498b70a71078d3d80be6030347248a74c41c0ef0840e61103a26a9680434386b",
+          "Seneca": "32095b1fd2a58657684b73a10a64ec2722d9c501a44a9b5ccd8b1e063546d66b",
+          "Seneca.debug.dylib": "f7a1d6700fbaddc150077e3f34da9297a67b177feab924c43a37ccfefbfed171",
+          "__preview.dylib": "59976a56063bdc06899bee531ba9ca5e3fb45cb0f8f6b39029c359554b9a1679"
+        },
+        "phase": "reopen",
+        "reflections_sha256": "12bc1b5a965139db1840dc09401a6e30e3d12bf98e52d6417081930d3a59fbe9",
+        "replayed_after_reopen": true,
+        "run": "20261017T002510Z-9649",
+        "simulator": false,
+        "system_name": "iOS",
+        "system_version": "27.0.1",
+        "today": "2026-04-02"
+      },
+      "xcresult": {
+        "devices": [
+          {
+            "id": "00000000-0000000000000000",
+            "os_version": "27.0.1",
+            "platform": "iOS"
+          }
+        ],
+        "expected_failures": 0,
+        "failed": 0,
+        "passed": 1,
+        "result": "Passed",
+        "skipped": 0,
+        "tests": [
+          {
+            "name": "testReopenFindsTheReflectionAfterRedeployment()",
+            "result": "Passed"
+          }
+        ],
+        "total": 1
+      }
+    },
+    "seed": {
+      "build": {
+        "executables": {
+          "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "1718f1783055d6c472e6c19fa8ca433c6ae2f32b6ae3b6446c7b603b1a8fcdf6",
+          "Seneca": "51c6b12a282196a10d40be4b60ec2b84133e7606751d01bc2b08e3e77e031e4f",
+          "Seneca.debug.dylib": "406e335db28a3bd28a3311e5cb8615f267b09e4bb9bc22bd8ca49cb348342414",
+          "__preview.dylib": "181a4c98fc41449e1e492447a3bdf711c113f271a0c64514aa5fefcfbd79d5b6"
+        },
+        "number": "1792196710"
+      },
+      "reported": {
+        "archive_sha256": "9f6cf2eb096bd071b6b5708f3d56ef02d02b4b12b1ab041f597ec8350be5c51c",
+        "bridge_version": 5,
+        "bundle_build": "1792196710",
+        "bundle_identifier": "io.sglavoie.seneca.mobile",
+        "bundle_version": "0.1.0",
+        "container_relative_journal": "Library/Application Support/SenecaEvidence/20261017T002510Z-9649/journal",
+        "device_model": "iPhone (iPhone14,2)",
+        "device_name": "iPhone",
+        "entry_count": 5,
+        "entry_revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+        "executables": {
+          "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "1718f1783055d6c472e6c19fa8ca433c6ae2f32b6ae3b6446c7b603b1a8fcdf6",
+          "Seneca": "51c6b12a282196a10d40be4b60ec2b84133e7606751d01bc2b08e3e77e031e4f",
+          "Seneca.debug.dylib": "406e335db28a3bd28a3311e5cb8615f267b09e4bb9bc22bd8ca49cb348342414",
+          "__preview.dylib": "181a4c98fc41449e1e492447a3bdf711c113f271a0c64514aa5fefcfbd79d5b6"
+        },
+        "phase": "seed",
+        "reflections_sha256": "12bc1b5a965139db1840dc09401a6e30e3d12bf98e52d6417081930d3a59fbe9",
+        "replayed_after_reopen": true,
+        "run": "20261017T002510Z-9649",
+        "simulator": false,
+        "system_name": "iOS",
+        "system_version": "27.0.1",
+        "today": "2026-04-02"
+      },
+      "xcresult": {
+        "devices": [
+          {
+            "id": "00000000-0000000000000000",
+            "os_version": "27.0.1",
+            "platform": "iOS"
+          }
+        ],
+        "expected_failures": 0,
+        "failed": 0,
+        "passed": 1,
+        "result": "Passed",
+        "skipped": 0,
+        "tests": [
+          {
+            "name": "testSeedSavesAReflectionThroughGo()",
+            "result": "Passed"
+          }
+        ],
+        "total": 1
+      }
+    }
+  },
+  "recorded_at": "2026-10-17T00:25:35Z",
+  "run": "20261017T002510Z-9649",
+  "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+  "target": "device"
+}

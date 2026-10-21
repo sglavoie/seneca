@@ -1,0 +1,10 @@
+$ seneca focus --date 2026-02-28
+No focus in effect on 2026-02-28.
+$ seneca focus --date 2026-03-10
+Focus (set 2026-03-08, 25 days ago, review):
+Walk before the dip.
+$ seneca focus --date 2026-03-15
+No focus in effect on 2026-03-15.
+$ seneca focus --date 2026-04-02
+Focus (set 2026-03-16, 17 days ago, manual):
+Finish before starting.

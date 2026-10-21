@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "reflection": {
+    "questions": [
+      "What did I notice today?",
+      "What did I handle well?",
+      "What will I carry into tomorrow?"
+    ],
+    "anchor_question_index": 3
+  },
+  "legacy": {
+    "questions": [
+      "What did I notice today?",
+      "What did I handle well?",
+      "What will I carry into tomorrow?"
+    ],
+    "anchor_question_index": 3
+  }
+}

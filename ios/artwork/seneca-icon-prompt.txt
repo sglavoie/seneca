@@ -1,0 +1,9 @@
+Generated with the built-in image_gen tool. Exported to 1024x1024 with sips.
+
+Use case: stylized-concept
+Asset type: finished square iPhone app icon for Seneca, a private Stoic reflection journal.
+Primary request: a beautiful, distinctive classical philosopher statue icon.
+Subject: a single sculpted marble bust of an elderly Roman Stoic philosopher, inspired by Seneca: high forehead, short wavy hair, thoughtful lined face, restrained classical drapery. Calm and contemplative expression. Three-quarter view, head and shoulders, strong recognizable silhouette.
+Style/medium: refined sculptural 3D illustration, museum-quality stone, simplified bold forms that remain readable at very small app-icon sizes. Subtle chisel texture, no fussy ornament.
+Composition: one centered bust filling most of the square with comfortable breathing room around the head; clean uninterrupted dark stone backdrop, warm ivory marble illuminated by soft directional light. Elegant, quiet, timeless. Clear separation of face and background.
+Constraints: output a single 1024x1024 opaque full-bleed square image. No rounded corners baked in, no outer frame, no lettering, no text, no monogram, no watermark, no phone mockup, no extra objects, no collage. This image itself is the final app icon.

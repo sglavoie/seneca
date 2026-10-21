@@ -1,0 +1,115 @@
+{
+  "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+  "builds": [
+    {
+      "executables": {
+        "Seneca": "eb8c0573c0fbf96d170a4cde0d157063d7c2770918d5673a00fb0ce064ce7fc9",
+        "Seneca.debug.dylib": "38c0362801a46d56b872152bdb547aea63080d6c694b7d374cb7bf1ae795c1d4",
+        "__preview.dylib": "e26c706d07c056e1c1903064459db3a77212a7e5cdbe0fb33278d5e47b3252ad"
+      },
+      "installed_at": "2026-10-17T00:25:04Z",
+      "number": "1792196687",
+      "replaced": "1792151803"
+    }
+  ],
+  "checks": {},
+  "cli": {
+    "at": "2026-10-17T00:25:44Z",
+    "matches_sources": true,
+    "path": "/Users/you/.go/bin/seneca",
+    "sha256": "0d867608b9409caf77f6dc3562bf70e785c522f3e17206b8da6db032852d90ac"
+  },
+  "defects": [],
+  "desktop_fingerprint": "e7f6751c8fe2bba3c6b8e6cc9878eff52ae9b0ed0d1bb3d2555bf5d6f56ab884",
+  "device": {
+    "device_type": "iPhone",
+    "marketing_name": "iPhone 13 Pro",
+    "model": "iPhone14,2",
+    "name": "iPhone",
+    "os_version": "27.0.1",
+    "reality": "physical",
+    "signing_team": "ABCDE12345",
+    "udid": "00000000-0000000000000000"
+  },
+  "format": "seneca-release-qualification",
+  "format_version": 1,
+  "opened_at": "2026-10-17T00:25:04Z",
+  "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+  "waived": {
+    "access-revocation": {
+      "at": "2026-10-17T00:38:24Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "accessibility": {
+      "at": "2026-10-17T00:38:37Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "airplane-mode": {
+      "at": "2026-10-17T00:38:11Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "cloud-delay": {
+      "at": "2026-10-17T00:38:18Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "date-boundary": {
+      "at": "2026-10-17T00:38:41Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "draft-restoration": {
+      "at": "2026-10-17T00:38:47Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "mac-restart": {
+      "at": "2026-10-17T00:38:31Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "representative-size": {
+      "at": "2026-10-17T00:38:34Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "rollback": {
+      "at": "2026-10-17T00:38:54Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16; recovery steps remain documented in docs/mobile/qualification.md (Rolling back) but were not rehearsed"
+    },
+    "rollout": {
+      "at": "2026-10-17T00:38:57Z",
+      "build": "1792196687",
+      "note": "done by the author outside this procedure before 2026-10-15: on that date `seneca sync status` showed the journal enrolled with exchange iCloud Drive/Seneca, the iPhone applying 3 of 3 changes, no conflicts, and background sync installed; the backup, empty-phone and verify steps were not recorded; carried over to this build on 2026-10-16"
+    },
+    "simultaneous-edits": {
+      "at": "2026-10-17T00:38:21Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "termination": {
+      "at": "2026-10-17T00:38:14Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "time-zone-travel": {
+      "at": "2026-10-17T00:38:44Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "trial": {
+      "at": "2026-10-17T00:38:50Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    },
+    "upgrade": {
+      "at": "2026-10-17T00:38:27Z",
+      "build": "1792196687",
+      "note": "the author chose on 2026-10-15 to skip the formal device trial and keep the real journal already syncing with the iPhone; not tested under this procedure; carried over to this build on 2026-10-16"
+    }
+  }
+}

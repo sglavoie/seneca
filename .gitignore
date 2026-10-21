@@ -1,0 +1,19 @@
+seneca
+
+# iPhone app: the gomobile XCFramework and its fingerprint are built by
+# ios/scripts/build-bridge.sh, the Xcode project is generated from
+# ios/project.yml, and caches and SwiftPM state stay beside their sources.
+ios/.cache/
+ios/SenecaEngine/Frameworks/
+ios/SenecaEngine/.build/
+ios/SenecaEngine/.swiftpm/
+ios/Packages/*/.build/
+ios/Packages/*/.swiftpm/
+*.xcodeproj
+
+# scripts/apple-models builds and evaluation output.
+.cache/
+
+# Go test binaries and Python caches.
+*.test
+__pycache__/

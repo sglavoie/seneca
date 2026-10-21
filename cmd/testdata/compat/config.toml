@@ -1,0 +1,22 @@
+# Synthetic configuration for the compatibility baseline. Every table Seneca
+# reads is present so a dropped or renamed key fails a test.
+
+[editor]
+command = ["synthetic-editor", "--wait"]
+
+[seneca]
+questions = [
+    "What did I notice today?",
+    "What did I handle well?",
+    "What will I carry into tomorrow?",
+]
+anchor_question_index = 3
+reflections_path = "~/journal/reflections.md"
+
+[review]
+harness = "claude"
+model = "synthetic-model"
+
+# A table Seneca does not know. It must be ignored, never refused.
+[future]
+setting = "kept for a newer Seneca"

@@ -1,0 +1,1727 @@
+{
+  "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+  "desktop_fingerprint": "e7f6751c8fe2bba3c6b8e6cc9878eff52ae9b0ed0d1bb3d2555bf5d6f56ab884",
+  "format": "seneca-release-suites",
+  "format_version": 1,
+  "hosted": {
+    "devices": [
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "os_version": "27.0",
+        "platform": "iOS Simulator"
+      }
+    ],
+    "expected_failures": 0,
+    "failed": 0,
+    "identified": {
+      "BridgeOperationsTests/testAStaleOrRepeatedSaveNeverWritesTwice()": "Passed",
+      "BridgeOperationsTests/testFocusAndSettingsChangeOnlyFromTheStateTheyWereDecidedOn()": "Passed",
+      "BridgeOperationsTests/testReadsTheSyntheticJournal()": "Passed",
+      "BridgeOperationsTests/testTheLinkedEngineSpeaksTheBridgeTheseModelsWereWrittenFor()": "Passed",
+      "BridgeOperationsTests/testTwoDevicesExchangeAndSettleAConflict()": "Passed",
+      "BrowsingTests/testDeletionRefreshesHistoryAndRefusesAStaleEntry()": "Passed",
+      "BrowsingTests/testEverySavedReviewPeriodIsShownWithItsRevisions()": "Passed",
+      "BrowsingTests/testHistoryIsFilteredNavigatedAndSearchedByTheEnginesQueries()": "Passed",
+      "BrowsingTests/testTheFocusIsSetAndClearedOnlyFromTheTimelineShown()": "Passed",
+      "BrowsingTests/testTheQuestionsAndTheAnchorChangeAsOneUnit()": "Passed",
+      "ConflictTests/testAConflictSettledOfflineConvergesOnceTheExchangeResumes()": "Passed",
+      "ConflictTests/testAConflictedDayStaysReadableAndItsWritingStaysADraftUntilItIsSettled()": "Passed",
+      "ConflictTests/testAnAnswerIsGivenOnceAndAStaleOneIsRefused()": "Passed",
+      "DailyWorkflowTests/testADraftKeepsItsDateBaseQuestionsAnswersAndContext()": "Passed",
+      "DailyWorkflowTests/testADraftSurvivesTerminationAndIsClearedOnlyByASaveOrADiscard()": "Passed",
+      "DailyWorkflowTests/testADraftThatCannotBeReadNeverStandsInTheWayOfWriting()": "Passed",
+      "DailyWorkflowTests/testAFailedSaveKeepsTheDraftUntilTheJournalTakesIt()": "Passed",
+      "DailyWorkflowTests/testAStaleEditKeepsEveryTypedWord()": "Passed",
+      "DailyWorkflowTests/testAnEarlierDayIsWrittenInItsPlaceAndALaterOneRefused()": "Passed",
+      "DailyWorkflowTests/testAnUnreadableArchiveStillPermitsWritingWithoutContext()": "Passed",
+      "DailyWorkflowTests/testAnswersFollowTheirQuestionsWhenTheSettingsChange()": "Passed",
+      "DailyWorkflowTests/testEditingKeepsWhatNoQuestionNames()": "Passed",
+      "DailyWorkflowTests/testTheJournalAlreadyHoldingADraftClearsIt()": "Passed",
+      "EngineServiceTests/testCallsRunOneAtATimeAwayFromTheMainThread()": "Passed",
+      "EngineServiceTests/testEveryRequestStatesItsVersionAndAMutationItsIdentity()": "Passed",
+      "EngineServiceTests/testRefusalsAndBrokenRepliesAreDifferentFailures()": "Passed",
+      "ExchangeLifecycleTests/testAFolderThatCannotBeReachedIsSaidSoAndNeverStopsWriting()": "Passed",
+      "ExchangeLifecycleTests/testLeavingTheScreenExchangesOnceAndSchedulesNothing()": "Passed",
+      "ExchangeLifecycleTests/testRequestsMadeDuringAnExchangeNeverRunBesideIt()": "Passed",
+      "ExchangeLifecycleTests/testTheAppExchangesAtLaunchInFrontAfterASaveAndOnRefresh()": "Passed",
+      "ExchangeLifecycleTests/testTheCoordinatedFolderListsPlaceholdersAndNeverReplacesAFile()": "Passed",
+      "ExchangeLifecycleTests/testTheGrantToAFolderOutlastsTheAppAndSaysWhenItStoppedWorking()": "Passed",
+      "ExchangeLifecycleTests/testWhatIsStillArrivingIsTriedAgainUntilItIsHere()": "Passed",
+      "ExchangeTests/testAFileCutShortNeverEntersTheMirror()": "Passed",
+      "ExchangeTests/testAFileStillInTheCloudIsAskedForAndAppliedOnlyOnceItIsHere()": "Passed",
+      "ExchangeTests/testAPublicationStoppedPartWayIsInvisibleAndTheNextOneFinishesIt()": "Passed",
+      "ExchangeTests/testAnEmptyFolderIsStartedFromThePhoneAndADescriptorOnItsWayIsWaitedFor()": "Passed",
+      "ExchangeTests/testAnExchangeCancelledBeforeItStartsDoesNothing()": "Passed",
+      "ExchangeTests/testAnUnreachableFolderOrARevokedGrantNeverStopsWriting()": "Passed",
+      "ExchangeTests/testContentsArePublishedBeforeManifestsAndOnlyExchangeFilesLeaveThePhone()": "Passed",
+      "ExchangeTests/testDeliveryTellsSavedFromPublishedFromApplied()": "Passed",
+      "ExchangeTests/testEditsMadeOnBothSidesAtOnceAreBothKept()": "Passed",
+      "ModelEvaluationTests/testAProvisioningProfileGrantsOnlyWhatItLists()": "Passed",
+      "ModelEvaluationTests/testAnIPhoneThatCannotRunTheModelRecordsItsAnswerOnceWithoutTheScreen()": "Passed",
+      "ModelEvaluationTests/testEveryPromptRunsOnEveryReachableTargetAndOnlyTheResponsesAreWritten()": "Passed",
+      "ModelEvaluationTests/testPrivateCloudComputeIsNeverCalledWithoutTheEntitlementAndAnIneligibleIPhoneSaysWhy()": "Passed",
+      "ModelEvaluationTests/testThePromptsAreHeldToTheirFormatAndDigests()": "Passed",
+      "ModelEvaluationTests/testTheReviewSchemaOffersOnlyThePromptsDatesAndANullFocusWhenNoneApplies()": "Passed",
+      "ProposalTests/testARefusalOrATakeTooLongForTheModelFallsBackToTheTranscript()": "Passed",
+      "ProposalTests/testASpokenEntryIsByteIdenticalToATypedEntryWithTheSameAnswers()": "Passed",
+      "ProposalTests/testAnIPhoneThatCannotRunTheModelIsNeverAskedAndCopiesTheTranscript()": "Passed",
+      "ProposalTests/testAnUnavailableModelShowsTheTranscriptToCopyIntoEachQuestion()": "Passed",
+      "ProposalTests/testProposedAnswersMergeIntoTheDraftWithoutOverwritingTypedText()": "Passed",
+      "ProposalTests/testTheSplitIsShapedForOneToFiveQuestions()": "Passed",
+      "RecoveryTests/testANewIPhoneJoinsAsItselfAndACopyRestoredFromAnotherRejoinsKeepingEveryWord()": "Passed",
+      "RecoveryTests/testARecoveryExportHoldsEveryWordAndNoIdentityAndSurvivesAnInterruption()": "Passed",
+      "RecoveryTests/testAnUnavailableFolderIsNamedAndNeverStopsWriting()": "Passed",
+      "RecoveryTests/testDiagnosticsShareNothingWritten()": "Passed",
+      "RecoveryTests/testDisconnectingKeepsEveryWordAndForgetsTheFolder()": "Passed",
+      "ReminderTests/testAJournalThatCannotBePlannedKeepsWhatWasScheduled()": "Passed",
+      "ReminderTests/testAReflectionFromTheMacSilencesTheEveningOnlyOnceItIsImported()": "Passed",
+      "ReminderTests/testASaveAForegroundAndAClockChangeEachPlanAgainAndAWrittenDayIsSilent()": "Passed",
+      "ReminderTests/testDeniedPermissionNeverStopsWritingAndIsSaidSo()": "Passed",
+      "ReminderTests/testRemindersAreOffUntilTurnedOnAndFollowTheDesktopSchedule()": "Passed",
+      "RoundTripTests/testSavesAReflectionThroughGoAndReopensItAsTheDesktopWroteIt()": "Passed",
+      "RoundTripTests/testTheAppModelShowsTheSavedReflection()": "Passed",
+      "TakeTimingTests/testAProposalTimesTheModelOnlyWhenItProposes()": "Passed",
+      "TakeTimingTests/testATakeKeepsWhenItStoppedAndHowLongItsAnswersTook()": "Passed",
+      "VoiceCaptureTests/testAFailedTranscriptionStaysListedAndIsTriedAgain()": "Passed",
+      "VoiceCaptureTests/testAMissingSpeechModelIsNeverWaitedForAndTheTakeIsTranscribedOnceItArrives()": "Passed",
+      "VoiceCaptureTests/testAPartialFoundAtLaunchIsFinalizedAndOfferedForTranscription()": "Passed",
+      "VoiceCaptureTests/testARefusedMicrophoneIsSaidSoAndWritesNothing()": "Passed",
+      "VoiceCaptureTests/testATakeIsRecordedIntoTheDayAndRenamedWhenItStopsWithItsSidecarAndNothingInTheJournal()": "Passed",
+      "VoiceCaptureTests/testATranscriptionFinishingAfterTheScreenMovedOnLeavesTheNewRecordingAlone()": "Passed",
+      "VoiceCaptureTests/testAnInterruptionKeepsWhatWasCapturedAndTranscribesIt()": "Passed",
+      "VoiceCaptureTests/testNothingIsRecoveredWhileTheIPhoneIsLocked()": "Passed",
+      "VoiceCaptureTests/testTheDictationTranscriberTakesOverWhenTheSpeechTranscriberCannotServeTheLanguage()": "Passed",
+      "VoiceCaptureTests/testTheSidecarIsReplacedWholeAndLeavesNoTemporaryFiles()": "Passed",
+      "VoiceRetentionTests/testAKitWithAnIncompleteTakeRestoresNothing()": "Passed",
+      "VoiceRetentionTests/testARecoveryKitCarriesTheAudioBesideAnUnchangedExportAndPutsItBack()": "Passed",
+      "VoiceRetentionTests/testARestoreStoppedBetweenItsRenamesIsFinishedOrUndone()": "Passed",
+      "VoiceRetentionTests/testAnswersAcceptedIntoADiscardedDraftNeverDeleteTheirTakeWhenOtherWritingIsSaved()": "Passed",
+      "VoiceRetentionTests/testDeletingATakeRemovesItsAudioAndSidecarAndNothingElse()": "Passed",
+      "VoiceRetentionTests/testDiagnosticsCountTheAudioWithoutAWordOfIt()": "Passed",
+      "VoiceRetentionTests/testTakesAreKeptOrDeletedOnceTheirAnswersAreSavedAsTheAuthorChooses()": "Passed"
+    },
+    "passed": 85,
+    "result": "Passed",
+    "skipped": 0,
+    "tests": [
+      {
+        "name": "testAStaleOrRepeatedSaveNeverWritesTwice()",
+        "result": "Passed"
+      },
+      {
+        "name": "testFocusAndSettingsChangeOnlyFromTheStateTheyWereDecidedOn()",
+        "result": "Passed"
+      },
+      {
+        "name": "testReadsTheSyntheticJournal()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheLinkedEngineSpeaksTheBridgeTheseModelsWereWrittenFor()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTwoDevicesExchangeAndSettleAConflict()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDeletionRefreshesHistoryAndRefusesAStaleEntry()",
+        "result": "Passed"
+      },
+      {
+        "name": "testEverySavedReviewPeriodIsShownWithItsRevisions()",
+        "result": "Passed"
+      },
+      {
+        "name": "testHistoryIsFilteredNavigatedAndSearchedByTheEnginesQueries()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheFocusIsSetAndClearedOnlyFromTheTimelineShown()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheQuestionsAndTheAnchorChangeAsOneUnit()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAConflictedDayStaysReadableAndItsWritingStaysADraftUntilItIsSettled()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAConflictSettledOfflineConvergesOnceTheExchangeResumes()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnAnswerIsGivenOnceAndAStaleOneIsRefused()",
+        "result": "Passed"
+      },
+      {
+        "name": "testADraftKeepsItsDateBaseQuestionsAnswersAndContext()",
+        "result": "Passed"
+      },
+      {
+        "name": "testADraftSurvivesTerminationAndIsClearedOnlyByASaveOrADiscard()",
+        "result": "Passed"
+      },
+      {
+        "name": "testADraftThatCannotBeReadNeverStandsInTheWayOfWriting()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAFailedSaveKeepsTheDraftUntilTheJournalTakesIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnEarlierDayIsWrittenInItsPlaceAndALaterOneRefused()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnswersFollowTheirQuestionsWhenTheSettingsChange()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnUnreadableArchiveStillPermitsWritingWithoutContext()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAStaleEditKeepsEveryTypedWord()",
+        "result": "Passed"
+      },
+      {
+        "name": "testEditingKeepsWhatNoQuestionNames()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheJournalAlreadyHoldingADraftClearsIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testCallsRunOneAtATimeAwayFromTheMainThread()",
+        "result": "Passed"
+      },
+      {
+        "name": "testEveryRequestStatesItsVersionAndAMutationItsIdentity()",
+        "result": "Passed"
+      },
+      {
+        "name": "testRefusalsAndBrokenRepliesAreDifferentFailures()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAFolderThatCannotBeReachedIsSaidSoAndNeverStopsWriting()",
+        "result": "Passed"
+      },
+      {
+        "name": "testLeavingTheScreenExchangesOnceAndSchedulesNothing()",
+        "result": "Passed"
+      },
+      {
+        "name": "testRequestsMadeDuringAnExchangeNeverRunBesideIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheAppExchangesAtLaunchInFrontAfterASaveAndOnRefresh()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheCoordinatedFolderListsPlaceholdersAndNeverReplacesAFile()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheGrantToAFolderOutlastsTheAppAndSaysWhenItStoppedWorking()",
+        "result": "Passed"
+      },
+      {
+        "name": "testWhatIsStillArrivingIsTriedAgainUntilItIsHere()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAFileCutShortNeverEntersTheMirror()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAFileStillInTheCloudIsAskedForAndAppliedOnlyOnceItIsHere()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnEmptyFolderIsStartedFromThePhoneAndADescriptorOnItsWayIsWaitedFor()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnExchangeCancelledBeforeItStartsDoesNothing()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnUnreachableFolderOrARevokedGrantNeverStopsWriting()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAPublicationStoppedPartWayIsInvisibleAndTheNextOneFinishesIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testContentsArePublishedBeforeManifestsAndOnlyExchangeFilesLeaveThePhone()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDeliveryTellsSavedFromPublishedFromApplied()",
+        "result": "Passed"
+      },
+      {
+        "name": "testEditsMadeOnBothSidesAtOnceAreBothKept()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnIPhoneThatCannotRunTheModelRecordsItsAnswerOnceWithoutTheScreen()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAProvisioningProfileGrantsOnlyWhatItLists()",
+        "result": "Passed"
+      },
+      {
+        "name": "testEveryPromptRunsOnEveryReachableTargetAndOnlyTheResponsesAreWritten()",
+        "result": "Passed"
+      },
+      {
+        "name": "testPrivateCloudComputeIsNeverCalledWithoutTheEntitlementAndAnIneligibleIPhoneSaysWhy()",
+        "result": "Passed"
+      },
+      {
+        "name": "testThePromptsAreHeldToTheirFormatAndDigests()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheReviewSchemaOffersOnlyThePromptsDatesAndANullFocusWhenNoneApplies()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnIPhoneThatCannotRunTheModelIsNeverAskedAndCopiesTheTranscript()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnUnavailableModelShowsTheTranscriptToCopyIntoEachQuestion()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARefusalOrATakeTooLongForTheModelFallsBackToTheTranscript()",
+        "result": "Passed"
+      },
+      {
+        "name": "testASpokenEntryIsByteIdenticalToATypedEntryWithTheSameAnswers()",
+        "result": "Passed"
+      },
+      {
+        "name": "testProposedAnswersMergeIntoTheDraftWithoutOverwritingTypedText()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheSplitIsShapedForOneToFiveQuestions()",
+        "result": "Passed"
+      },
+      {
+        "name": "testANewIPhoneJoinsAsItselfAndACopyRestoredFromAnotherRejoinsKeepingEveryWord()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnUnavailableFolderIsNamedAndNeverStopsWriting()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARecoveryExportHoldsEveryWordAndNoIdentityAndSurvivesAnInterruption()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDiagnosticsShareNothingWritten()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDisconnectingKeepsEveryWordAndForgetsTheFolder()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAJournalThatCannotBePlannedKeepsWhatWasScheduled()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAReflectionFromTheMacSilencesTheEveningOnlyOnceItIsImported()",
+        "result": "Passed"
+      },
+      {
+        "name": "testASaveAForegroundAndAClockChangeEachPlanAgainAndAWrittenDayIsSilent()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDeniedPermissionNeverStopsWritingAndIsSaidSo()",
+        "result": "Passed"
+      },
+      {
+        "name": "testRemindersAreOffUntilTurnedOnAndFollowTheDesktopSchedule()",
+        "result": "Passed"
+      },
+      {
+        "name": "testSavesAReflectionThroughGoAndReopensItAsTheDesktopWroteIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheAppModelShowsTheSavedReflection()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAProposalTimesTheModelOnlyWhenItProposes()",
+        "result": "Passed"
+      },
+      {
+        "name": "testATakeKeepsWhenItStoppedAndHowLongItsAnswersTook()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAFailedTranscriptionStaysListedAndIsTriedAgain()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAMissingSpeechModelIsNeverWaitedForAndTheTakeIsTranscribedOnceItArrives()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnInterruptionKeepsWhatWasCapturedAndTranscribesIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAPartialFoundAtLaunchIsFinalizedAndOfferedForTranscription()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARefusedMicrophoneIsSaidSoAndWritesNothing()",
+        "result": "Passed"
+      },
+      {
+        "name": "testATakeIsRecordedIntoTheDayAndRenamedWhenItStopsWithItsSidecarAndNothingInTheJournal()",
+        "result": "Passed"
+      },
+      {
+        "name": "testATranscriptionFinishingAfterTheScreenMovedOnLeavesTheNewRecordingAlone()",
+        "result": "Passed"
+      },
+      {
+        "name": "testNothingIsRecoveredWhileTheIPhoneIsLocked()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheDictationTranscriberTakesOverWhenTheSpeechTranscriberCannotServeTheLanguage()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheSidecarIsReplacedWholeAndLeavesNoTemporaryFiles()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAKitWithAnIncompleteTakeRestoresNothing()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnswersAcceptedIntoADiscardedDraftNeverDeleteTheirTakeWhenOtherWritingIsSaved()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARecoveryKitCarriesTheAudioBesideAnUnchangedExportAndPutsItBack()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARestoreStoppedBetweenItsRenamesIsFinishedOrUndone()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDeletingATakeRemovesItsAudioAndSidecarAndNothingElse()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDiagnosticsCountTheAudioWithoutAWordOfIt()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTakesAreKeptOrDeletedOnceTheirAnswersAreSavedAsTheAuthorChooses()",
+        "result": "Passed"
+      }
+    ],
+    "total": 85
+  },
+  "recorded_at": "2026-10-16T12:38:07Z",
+  "roundtrip": {
+    "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+    "device": {
+      "model": "iPhone-18-Pro",
+      "name": "iPhone 18 Pro",
+      "os_version": "iOS-27-0",
+      "reality": "simulated",
+      "udid": "00000000-0000-0000-0000-000000000000"
+    },
+    "format": "seneca-mobile-roundtrip",
+    "format_version": 1,
+    "mac": {
+      "machine": "arm64",
+      "os_version": "27.0.1"
+    },
+    "phases": {
+      "reopen": {
+        "build": {
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "ddb9c74d89f9b367088096c792a5206e6c4c34c13e4b64f677b6f29bc076e66a",
+            "Seneca": "d556c803936e7c1bb79d9694f802ba63043742a15f8dffd8a09eea367911d893",
+            "Seneca.debug.dylib": "271f26571c4f28007c9d5d83b750c56e38a5d3f2cd1bfd6561c708aafa9ee9e7",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "number": "1792156034"
+        },
+        "reported": {
+          "archive_sha256": "9f6cf2eb096bd071b6b5708f3d56ef02d02b4b12b1ab041f597ec8350be5c51c",
+          "bridge_version": 5,
+          "bundle_build": "1792156034",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "bundle_version": "0.1.0",
+          "container_relative_journal": "Library/Application Support/SenecaEvidence/20261016T130713Z-50308/journal",
+          "device_model": "iPhone (arm64)",
+          "device_name": "iPhone 18 Pro",
+          "entry_count": 5,
+          "entry_revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "ddb9c74d89f9b367088096c792a5206e6c4c34c13e4b64f677b6f29bc076e66a",
+            "Seneca": "d556c803936e7c1bb79d9694f802ba63043742a15f8dffd8a09eea367911d893",
+            "Seneca.debug.dylib": "271f26571c4f28007c9d5d83b750c56e38a5d3f2cd1bfd6561c708aafa9ee9e7",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "phase": "reopen",
+          "reflections_sha256": "12bc1b5a965139db1840dc09401a6e30e3d12bf98e52d6417081930d3a59fbe9",
+          "replayed_after_reopen": true,
+          "run": "20261016T130713Z-50308",
+          "simulator": true,
+          "system_name": "iOS",
+          "system_version": "27.0",
+          "today": "2026-04-02"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testReopenFindsTheReflectionAfterRedeployment()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "seed": {
+        "build": {
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "ddb9c74d89f9b367088096c792a5206e6c4c34c13e4b64f677b6f29bc076e66a",
+            "Seneca": "d556c803936e7c1bb79d9694f802ba63043742a15f8dffd8a09eea367911d893",
+            "Seneca.debug.dylib": "271f26571c4f28007c9d5d83b750c56e38a5d3f2cd1bfd6561c708aafa9ee9e7",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "number": "1792156033"
+        },
+        "reported": {
+          "archive_sha256": "9f6cf2eb096bd071b6b5708f3d56ef02d02b4b12b1ab041f597ec8350be5c51c",
+          "bridge_version": 5,
+          "bundle_build": "1792156033",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "bundle_version": "0.1.0",
+          "container_relative_journal": "Library/Application Support/SenecaEvidence/20261016T130713Z-50308/journal",
+          "device_model": "iPhone (arm64)",
+          "device_name": "iPhone 18 Pro",
+          "entry_count": 5,
+          "entry_revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "ddb9c74d89f9b367088096c792a5206e6c4c34c13e4b64f677b6f29bc076e66a",
+            "Seneca": "d556c803936e7c1bb79d9694f802ba63043742a15f8dffd8a09eea367911d893",
+            "Seneca.debug.dylib": "271f26571c4f28007c9d5d83b750c56e38a5d3f2cd1bfd6561c708aafa9ee9e7",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "phase": "seed",
+          "reflections_sha256": "12bc1b5a965139db1840dc09401a6e30e3d12bf98e52d6417081930d3a59fbe9",
+          "replayed_after_reopen": true,
+          "run": "20261016T130713Z-50308",
+          "simulator": true,
+          "system_name": "iOS",
+          "system_version": "27.0",
+          "today": "2026-04-02"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testSeedSavesAReflectionThroughGo()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      }
+    },
+    "recorded_at": "2026-10-16T13:07:43Z",
+    "run": "20261016T130713Z-50308",
+    "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+    "target": "simulator"
+  },
+  "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+  "sync_rehearsal": {
+    "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+    "build": {
+      "executables": {
+        "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+        "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+        "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+        "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+      },
+      "number": "1792156067"
+    },
+    "desktop": {
+      "before_publish": {
+        "has_entry": false
+      },
+      "edit": {
+        "before": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691",
+        "date": "2026-03-05",
+        "revision": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945"
+      },
+      "enrolled": {
+        "entries": {
+          "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+          "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+          "2026-03-04": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+          "2026-03-05": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691"
+        }
+      },
+      "final": {
+        "commits": 3,
+        "entries": {
+          "2026-03-02": "sha256:73b1de74e7bc6dfc059860d92e8dce1338b1e360ed4b43f75966dfe3eb4f8b6c",
+          "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+          "2026-03-04": "sha256:95019be8d3a48e43b94fd4109d986a6ac6f086710db8791d4f702807de0ced15",
+          "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+          "2026-04-01": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+          "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+        },
+        "phone_entries": {
+          "2026-03-02": "sha256:73b1de74e7bc6dfc059860d92e8dce1338b1e360ed4b43f75966dfe3eb4f8b6c",
+          "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+          "2026-03-04": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+          "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+          "2026-04-01": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+          "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+        },
+        "recorded": 5,
+        "status": "Sync: journal 5def038d63c8, this device is \"mac\" (device c19dac283a03)\nRecorded here: 5 changes\nExchange: <exchange>\n  not published yet: 0\n  not imported yet: 0\n  applied on \"phone\": 5 of 5 recorded here\nConflicts: 1 wait for you; run `seneca sync conflicts`\nBackground service: not installed\n",
+        "uncommitted": ""
+      },
+      "import": {
+        "commits": [
+          {
+            "commit": "b0f7ac22c15c8984c4bafb1db0373f8fc2375edf",
+            "files": [
+              "journal/reflections.md"
+            ],
+            "subject": "seneca: sync import"
+          }
+        ],
+        "date": "2026-04-02",
+        "revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+        "uncommitted": ""
+      },
+      "interrupted": {
+        "has_entry": false,
+        "partial_arrived": [
+          "objects/38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b"
+        ],
+        "sync_once_failed": false
+      },
+      "late_edit": {
+        "date": "2026-03-02",
+        "revision": "sha256:73b1de74e7bc6dfc059860d92e8dce1338b1e360ed4b43f75966dfe3eb4f8b6c"
+      },
+      "resumed": {
+        "cloud": {
+          "evicted": 0,
+          "reported_downloading": false
+        },
+        "commits": 3,
+        "has_entry": true,
+        "revision": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+        "uncommitted": ""
+      },
+      "simultaneous": {
+        "conflict_id": "5fffefd3995c",
+        "holds_theirs": true,
+        "keeps_own": true,
+        "merged_holds_both": true,
+        "merged_revision": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910",
+        "uncommitted": ""
+      }
+    },
+    "desktop_fingerprint": "e7f6751c8fe2bba3c6b8e6cc9878eff52ae9b0ed0d1bb3d2555bf5d6f56ab884",
+    "device": {
+      "model": "iPhone-18-Pro",
+      "name": "iPhone 18 Pro",
+      "os_version": "iOS-27-0",
+      "reality": "simulated",
+      "udid": "00000000-0000-0000-0000-000000000000"
+    },
+    "format": "seneca-mobile-sync",
+    "format_version": 1,
+    "mac": {
+      "folder": "~/seneca/ios/.cache/results/qualification-suites-xd5yrn3b/sync/folder",
+      "in_icloud_drive": false,
+      "machine": "arm64",
+      "os_version": "27.0.1",
+      "seneca_sha256": "0d867608b9409caf77f6dc3562bf70e785c522f3e17206b8da6db032852d90ac"
+    },
+    "phases": {
+      "confirm": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 1,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 1,
+            "recorded": 1,
+            "uploaded": 1
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+            "2026-03-05": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691",
+            "2026-04-02": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "confirm",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "05e1fa931b4658bee2ef00ce6b6872ed2d81473d1c6da0c4bb2fdb4d009f546c"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 1
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testConfirm()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "final": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 5,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 5,
+            "recorded": 5,
+            "uploaded": 5
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:73b1de74e7bc6dfc059860d92e8dce1338b1e360ed4b43f75966dfe3eb4f8b6c",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+            "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+            "2026-04-01": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+            "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "final",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [
+              "entry:2026-03-04"
+            ],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "0baa316618dfc62fd43705fc0ad42ab5c7a94e66b8dc87719645d48b02d9126c"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 5
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testFinal()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "interrupt": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "cancelled": true,
+          "date": "2026-04-01",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 4,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 4,
+            "recorded": 5,
+            "uploaded": 1
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+            "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+            "2026-04-01": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+            "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "interrupt",
+          "published": [
+            "objects/38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b"
+          ],
+          "revision": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [
+              "entry:2026-03-04"
+            ],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "1f5c0021e4da91cdf8f2236204927664fc3885c4f5b99b1dfc8e6cae867f4dda",
+              "b41823a2517f3c74b12a9802fc15c03cc6c9cf576e15c7f7ef833c1220f40544"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 5
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testInterrupt()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "join": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 0,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 0,
+            "recorded": 0,
+            "uploaded": 0
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+            "2026-03-05": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 2,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "join",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "0e8d464a219444d24478514c134f9ba8c897e28eb430b045bf11d016d0320d79"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 0
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testJoin()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "probe": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "device_model": "iPhone (arm64)",
+          "entries": {},
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 0,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "probe",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testProbe()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "publish": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 0,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 1,
+            "recorded": 1,
+            "uploaded": 0
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+            "2026-03-05": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691",
+            "2026-04-02": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "publish",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "05e1fa931b4658bee2ef00ce6b6872ed2d81473d1c6da0c4bb2fdb4d009f546c"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 1
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testPublish()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "receive": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "date": "2026-03-05",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 1,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 1,
+            "recorded": 1,
+            "uploaded": 1
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+            "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+            "2026-04-02": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "receive",
+          "revision": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "f229fbcd517a96d63b123ea3ce17e00448caaa80edd6ec46a241e3585612c963"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 1
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testReceive()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "receive-interrupted": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "cancelled": true,
+          "date": "2026-03-02",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 5,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 5,
+            "recorded": 5,
+            "uploaded": 5
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:73b1de74e7bc6dfc059860d92e8dce1338b1e360ed4b43f75966dfe3eb4f8b6c",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+            "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+            "2026-04-01": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+            "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 2,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "receive-interrupted",
+          "read_before_cancel": [
+            "journal.json"
+          ],
+          "revision": "sha256:73b1de74e7bc6dfc059860d92e8dce1338b1e360ed4b43f75966dfe3eb4f8b6c",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [
+              "entry:2026-03-04"
+            ],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "0baa316618dfc62fd43705fc0ad42ab5c7a94e66b8dc87719645d48b02d9126c"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 5
+          },
+          "system_version": "27.0",
+          "unchanged_between": true
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testReceiveInterrupted()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "resume": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 4,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 5,
+            "recorded": 5,
+            "uploaded": 4
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+            "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+            "2026-04-01": "sha256:38b06126876b344e3b5942a0913b7e33fbcf73eec3a0b61549c0f1e0e28be39b",
+            "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "phase": "resume",
+          "published": [
+            "transactions/6f0029af366cb8548dcce96da2929e84/00000005-b41823a2517f3c74b12a9802fc15c03cc6c9cf576e15c7f7ef833c1220f40544.json",
+            "receipts/6f0029af366cb8548dcce96da2929e84/c9e956138b52da7c4ffbd1fbffb33a75b43d196d4b1d90ff30b024b2ab679a23.json"
+          ],
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [
+              "entry:2026-03-04"
+            ],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "1f5c0021e4da91cdf8f2236204927664fc3885c4f5b99b1dfc8e6cae867f4dda",
+              "b41823a2517f3c74b12a9802fc15c03cc6c9cf576e15c7f7ef833c1220f40544"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 5
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testResume()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "save-offline": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "date": "2026-04-02",
+          "delivery": {
+            "peers": [
+              {
+                "applied": 0,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 0,
+            "recorded": 1,
+            "uploaded": 0
+          },
+          "desktop_revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4",
+            "2026-03-05": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691",
+            "2026-04-02": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 0,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "folder_opened": 0,
+          "phase": "save-offline",
+          "revision": "sha256:304d7de22ecba934bed090088ec91314311085991e7b6d7335e359980c9637e6",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "05e1fa931b4658bee2ef00ce6b6872ed2d81473d1c6da0c4bb2fdb4d009f546c"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 1
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testSaveOffline()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      },
+      "simultaneous": {
+        "reported": {
+          "bridge_version": 5,
+          "bundle_build": "1792156067",
+          "bundle_identifier": "io.sglavoie.seneca.mobile",
+          "conflict_date": "2026-03-04",
+          "conflict_holds_both": true,
+          "conflict_id": "5fffefd3995cf49e67d87bab047eefe140cf5ac0edd2075201977ef8d73e09ad",
+          "conflict_ours": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+          "conflict_theirs": [
+            "sha256:95019be8d3a48e43b94fd4109d986a6ac6f086710db8791d4f702807de0ced15"
+          ],
+          "delivery": {
+            "peers": [
+              {
+                "applied": 1,
+                "device": "c19dac283a03a08881d9b199e5ba71b6",
+                "name": "mac"
+              }
+            ],
+            "published": 4,
+            "recorded": 4,
+            "uploaded": 1
+          },
+          "device_model": "iPhone (arm64)",
+          "entries": {
+            "2026-03-02": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df",
+            "2026-03-03": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c",
+            "2026-03-04": "sha256:cb102d30e0d50b1bfa61976a4e5fe42bcf5200968facbb0b42bde2d16e8daa76",
+            "2026-03-05": "sha256:e4065ab32c02b6918790a0ebd8349e95084923058d4f7ec174ad26486dcbb945",
+            "2026-04-02": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910"
+          },
+          "executables": {
+            "PlugIns/SenecaMobileTests.xctest/SenecaMobileTests": "3edcc1062913d9164f7146fcc7c2178073e659836496bd8d587b1009a9a727d4",
+            "Seneca": "d70ac8d22c9350d353c08082609970adb6fb9eb9b213f083c82f096cfec72444",
+            "Seneca.debug.dylib": "ed396053a2a33d9f79986ad973c7964fedfc9fb411b7b974fc451708ea745c2b",
+            "__preview.dylib": "5194d5039e14fd7e3025723b91ca48a32dca7b649756e3bbdee48f2e45045a1b"
+          },
+          "folder": {
+            "granted": false,
+            "name": "folder",
+            "opened": 1,
+            "run_folder": "folder",
+            "ubiquitous": false
+          },
+          "merge_date": "2026-04-02",
+          "merged_holds_both": true,
+          "merged_revision": "sha256:d01725ac3d05c3bf9b860a96de8440f7757707b47946075a54a770a58bc63910",
+          "phase": "simultaneous",
+          "run": "20261016T130743Z-53379",
+          "simulator": true,
+          "sync": {
+            "conflicts": [
+              "entry:2026-03-04"
+            ],
+            "device": "6f0029af366cb8548dcce96da2929e84",
+            "heads": [
+              "27384778138dca82cfa0fac21ae3591c7c5da3472dc519ec53cd40d330801938"
+            ],
+            "journal": "5def038d63c86ca91919e8e5be59c552",
+            "pending": 0,
+            "sequence": 4
+          },
+          "system_version": "27.0"
+        },
+        "xcresult": {
+          "devices": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "os_version": "27.0",
+              "platform": "iOS Simulator"
+            }
+          ],
+          "expected_failures": 0,
+          "failed": 0,
+          "passed": 1,
+          "result": "Passed",
+          "skipped": 0,
+          "tests": [
+            {
+              "name": "testSimultaneous()",
+              "result": "Passed"
+            }
+          ],
+          "total": 1
+        }
+      }
+    },
+    "recorded_at": "2026-10-16T13:07:55Z",
+    "run": "20261016T130743Z-53379",
+    "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+    "target": "simulator"
+  },
+  "ui": {
+    "devices": [
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "os_version": "27.0",
+        "platform": "iOS Simulator"
+      }
+    ],
+    "expected_failures": 0,
+    "failed": 0,
+    "identified": {
+      "AccessibilityUITests/testEveryControlSaysWhatItIs()": "Passed",
+      "AccessibilityUITests/testTheKeyboardMovesThroughTheFieldsAndGetsOutOfTheWay()": "Passed",
+      "AccessibilityUITests/testTheLargestTextSizeKeepsEverythingReadableAndReachable()": "Passed",
+      "BrowsingUITests/testEveryReviewPeriodAndEachRevisionCanBeRead()": "Passed",
+      "BrowsingUITests/testHistoryIsFilteredByMonthRangeAndDateAndSearched()": "Passed",
+      "BrowsingUITests/testTheFocusIsSetAndClearedAndItsHistoryKept()": "Passed",
+      "BrowsingUITests/testTheQuestionsAndTheAnchorAreEditedTogether()": "Passed",
+      "ConflictUITests/testAConflictIsInspectedAndSettledByKeepingAVersion()": "Passed",
+      "ConflictUITests/testWritingForAConflictedDayStaysADraftUntilItIsSettledAndEdited()": "Passed",
+      "DailyWorkflowUITests/testACorruptArchiveStillPermitsWritingWithoutContext()": "Passed",
+      "DailyWorkflowUITests/testADiscardedDraftIsGone()": "Passed",
+      "DailyWorkflowUITests/testAStaleEditKeepsAllTypedText()": "Passed",
+      "DailyWorkflowUITests/testAnExistingDayIsEditedAndKeepsWhatNoQuestionNames()": "Passed",
+      "DailyWorkflowUITests/testAnotherDayCanBeWrittenFromToday()": "Passed",
+      "DailyWorkflowUITests/testDeletionRefusesAnEntryChangedDuringConfirmation()": "Passed",
+      "DailyWorkflowUITests/testSavedEntryCanBeDeletedFromHistory()": "Passed",
+      "DailyWorkflowUITests/testTodaysEntryCanBeDeletedAfterCancellingTheConfirmation()": "Passed",
+      "DailyWorkflowUITests/testWritingSurvivesForcedTermination()": "Passed",
+      "ModelEvaluationUITests/testTheEvaluationScreenReadsItsPromptsAndLeavesTheJournalAlone()": "Passed",
+      "RecoveryUITests/testDeniedNotificationsAreSaidSoAndNeverStopWriting()": "Passed",
+      "RecoveryUITests/testDiagnosticsShareNothingWrittenAndTheJournalExportsWhole()": "Passed",
+      "RecoveryUITests/testRemindersAreOptInAndScheduledAroundWhatIsWritten()": "Passed",
+      "VoiceUITests/testARecoveryKitCanCarryTheRecordingsAndDiagnosticsOnlyCountThem()": "Passed",
+      "VoiceUITests/testARefusedMicrophoneIsExplainedWithTheWayToSettings()": "Passed",
+      "VoiceUITests/testASpokenTakeIsTranscribedAndKeptOutsideTheJournal()": "Passed",
+      "VoiceUITests/testAnIPhoneThatCannotRunTheModelOffersCopyingAndNoModelEvaluation()": "Passed",
+      "VoiceUITests/testAnUnavailableModelOffersTheTranscriptToCopyIntoEachQuestion()": "Passed",
+      "VoiceUITests/testFillingAnswersFromARecordingLeavesNoStaleProposalBehind()": "Passed",
+      "VoiceUITests/testProposedAnswersAreConfirmedBeforeTheFormSavesThem()": "Passed",
+      "VoiceUITests/testRecordingsAreDeletedFromHistoryOneAtATimeOrAllWithNothingElse()": "Passed",
+      "VoiceUITests/testVoiceSettingsCanDeleteATakeOnceItsAnswersAreSaved()": "Passed"
+    },
+    "passed": 31,
+    "result": "Passed",
+    "skipped": 0,
+    "tests": [
+      {
+        "name": "testEveryControlSaysWhatItIs()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheKeyboardMovesThroughTheFieldsAndGetsOutOfTheWay()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheLargestTextSizeKeepsEverythingReadableAndReachable()",
+        "result": "Passed"
+      },
+      {
+        "name": "testEveryReviewPeriodAndEachRevisionCanBeRead()",
+        "result": "Passed"
+      },
+      {
+        "name": "testHistoryIsFilteredByMonthRangeAndDateAndSearched()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheFocusIsSetAndClearedAndItsHistoryKept()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheQuestionsAndTheAnchorAreEditedTogether()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAConflictIsInspectedAndSettledByKeepingAVersion()",
+        "result": "Passed"
+      },
+      {
+        "name": "testWritingForAConflictedDayStaysADraftUntilItIsSettledAndEdited()",
+        "result": "Passed"
+      },
+      {
+        "name": "testACorruptArchiveStillPermitsWritingWithoutContext()",
+        "result": "Passed"
+      },
+      {
+        "name": "testADiscardedDraftIsGone()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnExistingDayIsEditedAndKeepsWhatNoQuestionNames()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnotherDayCanBeWrittenFromToday()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAStaleEditKeepsAllTypedText()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDeletionRefusesAnEntryChangedDuringConfirmation()",
+        "result": "Passed"
+      },
+      {
+        "name": "testSavedEntryCanBeDeletedFromHistory()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTodaysEntryCanBeDeletedAfterCancellingTheConfirmation()",
+        "result": "Passed"
+      },
+      {
+        "name": "testWritingSurvivesForcedTermination()",
+        "result": "Passed"
+      },
+      {
+        "name": "testTheEvaluationScreenReadsItsPromptsAndLeavesTheJournalAlone()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDeniedNotificationsAreSaidSoAndNeverStopWriting()",
+        "result": "Passed"
+      },
+      {
+        "name": "testDiagnosticsShareNothingWrittenAndTheJournalExportsWhole()",
+        "result": "Passed"
+      },
+      {
+        "name": "testRemindersAreOptInAndScheduledAroundWhatIsWritten()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnIPhoneThatCannotRunTheModelOffersCopyingAndNoModelEvaluation()",
+        "result": "Passed"
+      },
+      {
+        "name": "testAnUnavailableModelOffersTheTranscriptToCopyIntoEachQuestion()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARecoveryKitCanCarryTheRecordingsAndDiagnosticsOnlyCountThem()",
+        "result": "Passed"
+      },
+      {
+        "name": "testARefusedMicrophoneIsExplainedWithTheWayToSettings()",
+        "result": "Passed"
+      },
+      {
+        "name": "testASpokenTakeIsTranscribedAndKeptOutsideTheJournal()",
+        "result": "Passed"
+      },
+      {
+        "name": "testFillingAnswersFromARecordingLeavesNoStaleProposalBehind()",
+        "result": "Passed"
+      },
+      {
+        "name": "testProposedAnswersAreConfirmedBeforeTheFormSavesThem()",
+        "result": "Passed"
+      },
+      {
+        "name": "testRecordingsAreDeletedFromHistoryOneAtATimeOrAllWithNothingElse()",
+        "result": "Passed"
+      },
+      {
+        "name": "testVoiceSettingsCanDeleteATakeOnceItsAnswersAreSaved()",
+        "result": "Passed"
+      }
+    ],
+    "total": 31
+  }
+}

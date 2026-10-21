@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "Marcellus";
+  src: url("/fonts/marcellus.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Literata";
+  src: url("/fonts/literata.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Literata";
+  src: url("/fonts/literata-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Dusk by default: the stone and marble of the icon, and the lamp. */
+:root {
+  --ground: #20262f;
+  --ground-raised: #283039;
+  --ink: #e8e4db;
+  --ink-soft: #9ba3ad;
+  --lamp: #d9ae5b;
+  --rule: #3a434e;
+  --measure: 36rem;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --ground: #f1f2ef;
+    --ground-raised: #e6e8e4;
+    --ink: #1d232c;
+    --ink-soft: #545d68;
+    --lamp: #80601c;
+    --rule: #cfd3cd;
+    color-scheme: light;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "Literata", Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  font-optical-sizing: auto;
+}
+
+a {
+  color: var(--lamp);
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+:focus-visible {
+  outline: 2px solid var(--lamp);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Marcellus", "Trajan Pro", Georgia, serif;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+h2 {
+  font-size: 1.75rem;
+  margin: 3.5rem 0 0.75rem;
+}
+h3 {
+  font-size: 1.25rem;
+  margin: 2.25rem 0 0.5rem;
+}
+p,
+ul,
+ol {
+  margin: 0 0 1rem;
+}
+li + li {
+  margin-top: 0.4rem;
+}
+
+.wrap {
+  width: 100%;
+  max-width: calc(var(--measure) + 2rem);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Site header: the name, and the way home. */
+.site-head {
+  padding: 1.5rem 0;
+}
+.site-head .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: "Marcellus", Georgia, serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
+}
+.brand img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 22%;
+}
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 1rem;
+}
+.site-nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+}
+
+/* Home: Seneca's own account of the practice. */
+.hero {
+  padding: 3rem 0 4rem;
+}
+.hero-inner {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  max-width: 62rem;
+}
+.hero-icon {
+  width: min(15rem, 60vw);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 22%;
+  box-shadow: 0 1.5rem 3rem -1.5rem rgb(0 0 0 / 0.55);
+}
+.hero-inner > * {
+  min-width: 0;
+}
+.hero blockquote {
+  margin: 0;
+}
+.hero blockquote p {
+  font-family: "Marcellus", Georgia, serif;
+  font-size: clamp(1.6rem, 1.1rem + 2.2vw, 2.6rem);
+  line-height: 1.28;
+  margin: 0 0 1.25rem;
+  text-wrap: balance;
+}
+.hero cite {
+  display: block;
+  font-style: normal;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--lamp);
+}
+.hero cite i {
+  font-style: italic;
+}
+@media (min-width: 52rem) {
+  .hero-inner {
+    grid-template-columns: 15rem 1fr;
+    gap: 3.5rem;
+  }
+}
+
+.lede {
+  font-size: 1.3rem;
+  line-height: 1.55;
+}
+.availability {
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+
+/* The questions as the app asks them. */
+.questions {
+  list-style: none;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  background: var(--ground-raised);
+  border-radius: 0.75rem;
+  counter-reset: q;
+}
+.questions li {
+  counter-increment: q;
+  display: grid;
+  grid-template-columns: 1.75rem 1fr;
+  font-style: italic;
+}
+.questions li::before {
+  content: counter(q);
+  font-family: "Marcellus", Georgia, serif;
+  font-style: normal;
+  color: var(--lamp);
+}
+
+/* Long-form pages: privacy and support. */
+.doc {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.doc h1 {
+  font-size: clamp(2.1rem, 1.6rem + 2vw, 2.8rem);
+  margin: 1rem 0 0.5rem;
+}
+.doc .updated {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.summary {
+  border-left: 2px solid var(--lamp);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  margin: 2rem 0;
+}
+.summary p:last-child {
+  margin-bottom: 0;
+}
+.contact {
+  font-size: 1.3rem;
+}
+
+.site-foot {
+  margin-top: 4rem;
+  padding: 2rem 0 3rem;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.site-foot .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+.site-foot nav {
+  display: flex;
+  gap: 1.25rem;
+}
+.site-foot a {
+  color: var(--ink-soft);
+}

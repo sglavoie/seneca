@@ -1,0 +1,5 @@
+2026-03-05
+  Synthetic: took the walk anyway.
+  Walk before the dip, not after.
+
+1 entry mentions "walk" in 2 lines; `seneca show --date DATE` reads one in full.

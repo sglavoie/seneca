@@ -1,0 +1,18 @@
+Seneca doctor
+
+  info  config       no config file at {{HOME}}/.config/seneca/config.toml; using the built-in defaults
+  ok    config       3 questions from the built-in defaults; anchor question 3 is "What could I do differently tomorrow?"
+  ok    config       reflections path {{JOURNAL_DIR}}/reflections.md (from SENECA_FILE)
+  ok    paths        directory {{JOURNAL_DIR}} exists with mode 0755
+  ok    reflections  4 entries parsed from {{JOURNAL_DIR}}/reflections.md
+  info  reflections  2 entries predate the v2 marker; they are read as written and are never migrated in bulk
+  info  reflections  latest entry 2026-03-05 (28 days ago)
+  ok    archive      3 saved reviews and 4 focus events in {{JOURNAL_DIR}}/seneca-reviews.md
+  info  archive      1 record were written by a newer seneca; they are preserved verbatim and ignored
+  info  archive      latest saved review: monthly review, 2026-03-01 to 2026-03-31 (2 days ago)
+  ok    archive      every record id matches its content
+  ok    archive      focus active since 2026-03-16 (17 days ago, manual): Finish before starting.
+  warn  git          git is not on PATH; seneca writes files but skips every commit
+  info  harness      no harness configured; `seneca review` needs --harness, SENECA_HARNESS, or review.harness
+
+No errors, 1 warning

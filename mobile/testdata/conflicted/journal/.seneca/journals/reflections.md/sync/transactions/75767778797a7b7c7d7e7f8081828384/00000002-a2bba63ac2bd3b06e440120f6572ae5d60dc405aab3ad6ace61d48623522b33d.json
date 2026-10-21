@@ -1,0 +1,18 @@
+{
+  "protocol": 1,
+  "journal": "65666768696a6b6c6d6e6f7071727374",
+  "device": "75767778797a7b7c7d7e7f8081828384",
+  "sequence": 2,
+  "parents": [
+    "a6c93ded72212b2ad513bbbd7509830838e3369923345485530fbba9d7e214e3"
+  ],
+  "created": "2026-04-02T21:00:00Z",
+  "origin": "local",
+  "changes": [
+    {
+      "artifact": "entry:2026-04-02",
+      "base": "absent",
+      "new": "sha256:71b8f2699215613c343a298946fb1e40aa6791ecf878d62a11f2816b73872408"
+    }
+  ]
+}

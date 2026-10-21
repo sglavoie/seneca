@@ -1,0 +1,111 @@
+{
+  "bridge_fingerprint": "0a41c3ab318b2f829f44fae9980964b93b9fd572eb022a49ead927e717c278a3",
+  "builds": [
+    {
+      "executables": {
+        "Seneca": "89fbd54e62d54f56e2691a7b26af04d02026974b422719edaa9a867ca903ca27",
+        "Seneca.debug.dylib": "f202874d8cefb439c7d834fc5a7cb6c2bf838e65954da944275703e1d9cbb671",
+        "__preview.dylib": "c295249860d478ada7eab517d3f5b41f86edfb9ba3e551aa2ed4d016d2eb9a5c"
+      },
+      "installed_at": "2026-10-17T00:35:51Z",
+      "number": "1792197341"
+    }
+  ],
+  "desktop_fingerprint": "e7f6751c8fe2bba3c6b8e6cc9878eff52ae9b0ed0d1bb3d2555bf5d6f56ab884",
+  "device": {
+    "device_type": "iPhone",
+    "marketing_name": "iPhone 13 Pro",
+    "model": "iPhone14,2",
+    "name": "iPhone",
+    "os_version": "27.0.1",
+    "reality": "physical",
+    "signing_team": "ABCDE12345",
+    "udid": "00000000-0000000000000000"
+  },
+  "format": "seneca-voice-qualification",
+  "format_version": 1,
+  "opened_at": "2026-10-17T00:35:51Z",
+  "source_fingerprint": "ade386936bfcfa5563410e726826b8d86ce1ebfab9fade5402f2aa9edec384f1",
+  "takes": {
+    "en-quiet": {
+      "at": "2026-10-17T00:37:26Z",
+      "build": "1792197341",
+      "device": "00000000-0000000000000000",
+      "note": "author recorded a short English take in a quiet room on 2026-10-16; transcribed on the iPhone",
+      "result": "passed",
+      "take": {
+        "byte_count": 46277,
+        "created_at": "2026-10-17T00:36:56Z",
+        "date": "2026-10-16",
+        "duration_seconds": 2.5,
+        "id": "6f72c588-9d95-4777-afdc-084734154983",
+        "locale": "en-US",
+        "proposal_seconds": null,
+        "proposal_unavailable": null,
+        "recovered": false,
+        "state": "transcribed",
+        "stopped_at": "2026-10-17T00:36:59Z",
+        "transcribed_at": "2026-10-17T00:37:00Z",
+        "transcriber": "speech-transcriber",
+        "transcript_characters": 10
+      }
+    }
+  },
+  "waived": {
+    "battery": {
+      "at": "2026-10-17T00:38:05Z",
+      "build": "1792197341",
+      "note": "author waived the battery check: it does not matter to them"
+    },
+    "call": {
+      "at": "2026-10-17T00:37:36Z",
+      "build": "1792197341",
+      "note": "author tried it on the iPhone on 2026-10-15 and confirmed it works; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "en-noisy": {
+      "at": "2026-10-17T00:37:46Z",
+      "build": "1792197341",
+      "note": "author recorded it on the iPhone on 2026-10-15 and confirmed the transcript was right; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "force-quit": {
+      "at": "2026-10-17T00:37:29Z",
+      "build": "1792197341",
+      "note": "author tried it on the iPhone on 2026-10-15 and confirmed it works; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "fr-noisy": {
+      "at": "2026-10-17T00:37:52Z",
+      "build": "1792197341",
+      "note": "author recorded it on the iPhone on 2026-10-15 and confirmed the transcript was right; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "fr-quiet": {
+      "at": "2026-10-17T00:37:49Z",
+      "build": "1792197341",
+      "note": "author recorded it on the iPhone on 2026-10-15 and confirmed the transcript was right; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "headset": {
+      "at": "2026-10-17T00:37:41Z",
+      "build": "1792197341",
+      "note": "author tried it on the iPhone on 2026-10-15 and confirmed it works; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "latency": {
+      "at": "2026-10-17T00:38:02Z",
+      "build": "1792197341",
+      "note": "author recorded a long take and sorted it on 2026-10-15 and confirmed it was fine; the take was not kept, so no timing was measured; carried over to this build on 2026-10-16"
+    },
+    "lock": {
+      "at": "2026-10-17T00:37:32Z",
+      "build": "1792197341",
+      "note": "author tried it on the iPhone on 2026-10-15 and confirmed it works; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "mixed-noisy": {
+      "at": "2026-10-17T00:37:58Z",
+      "build": "1792197341",
+      "note": "author recorded it on the iPhone on 2026-10-15 and confirmed the transcript was right; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    },
+    "mixed-quiet": {
+      "at": "2026-10-17T00:37:55Z",
+      "build": "1792197341",
+      "note": "author recorded it on the iPhone on 2026-10-15 and confirmed the transcript was right; the take was not kept on the phone, so nothing was measured; carried over to this build on 2026-10-16"
+    }
+  }
+}

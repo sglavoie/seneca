@@ -1,0 +1,18 @@
+{
+  "now": "2026-04-03T01:30:00Z",
+  "time_zone": "America/Toronto",
+  "questions": [
+    "What did I notice today?",
+    "What did I handle well?",
+    "What will I carry into tomorrow?"
+  ],
+  "anchor_question_index": 3,
+  "date": "2026-04-02",
+  "answers": [
+    "Synthetic: the afternoon went quiet once the phone was put away.",
+    "Synthetic: said no to the second meeting.\n\n- kept the list short\n- stopped at five",
+    "Finish the one thing before opening the next."
+  ],
+  "follow_through": "Synthetic: walked at noon, before the dip.",
+  "request_id": "roundtrip-save-1"
+}

@@ -1,0 +1,76 @@
+{
+  "protocol": 1,
+  "journal": "65666768696a6b6c6d6e6f7071727374",
+  "device": "75767778797a7b7c7d7e7f8081828384",
+  "sequence": 1,
+  "parents": [],
+  "created": "2026-04-02T12:00:00Z",
+  "origin": "genesis",
+  "changes": [
+    {
+      "artifact": "entry:2026-03-02",
+      "base": "absent",
+      "new": "sha256:93d28eee0969674042abab4fd4eda944942c7620f7e604487539818076f286df"
+    },
+    {
+      "artifact": "entry:2026-03-03",
+      "base": "absent",
+      "new": "sha256:bc5e4a30997a577d02695629b8a8fd9969bb28d87a226b61921725d64a21605c"
+    },
+    {
+      "artifact": "entry:2026-03-04",
+      "base": "absent",
+      "new": "sha256:370b144ec0323faae92d4b68f5b4246d1cf9f2f233d0882f1149f2cb8200a5b4"
+    },
+    {
+      "artifact": "entry:2026-03-05",
+      "base": "absent",
+      "new": "sha256:71bd145ae0af0a27ec819bdc514dded81d9ee459da953aaf4b38e854a8729691"
+    },
+    {
+      "artifact": "record:93e396f08d883ddd1017aaf0c03be0338d9d63202056c618e747ec5dbad17f68",
+      "base": "absent",
+      "new": "sha256:0262679e8ad185b3ea94418c990593853e1658ca7b5dfdab17ea8bff9b30ce8a"
+    },
+    {
+      "artifact": "record:9778153b0f3af26a3d97d0abf967c62596fdf85b804d21cc1aab09f19943a0b2",
+      "base": "absent",
+      "new": "sha256:ec394c49a5373e959c17936636f6cc5320ec6a062eee35385e957df8fd4b0a15"
+    },
+    {
+      "artifact": "record:6e4ab905a57c048b0d41f62c9e620591a8f552321f97ae89d4563929a318b8bc",
+      "base": "absent",
+      "new": "sha256:37e6b73bb7cfebc40f118e09f966eb420dd19a5d36ba922c3e25e424e4cbe852"
+    },
+    {
+      "artifact": "record:xd9c0c539e42da8bfc6632e09126d9285f3362982a93edaa3dadc7243af4f256a",
+      "base": "absent",
+      "new": "sha256:d9c0c539e42da8bfc6632e09126d9285f3362982a93edaa3dadc7243af4f256a"
+    },
+    {
+      "artifact": "record:bdbf87f4a62ceb502ed48467311d54c1b593902df44642e51f0da85214c9c379",
+      "base": "absent",
+      "new": "sha256:e7dba63a95b83ff6a7371b1801f26816c215802a700fe3928d59b470b3a414ef"
+    },
+    {
+      "artifact": "record:1ce202a0fb25f11b2827bbdceff8d567ee35357d9f24acf6baae71cec1a7f9f7",
+      "base": "absent",
+      "new": "sha256:7ab1c81798f73b8067879d6970d731404a710806c73ed9adc735e2d0d7b78fe0"
+    },
+    {
+      "artifact": "record:b3475c1e4c1c6cf3176eb495ab706aeb198fd98a8d0e3ed866d15526fbdef4a1",
+      "base": "absent",
+      "new": "sha256:da6ed2c18e2bd5844f94844c404d8b0074d00ce4da6aaeaefebc2e3189d41eeb"
+    },
+    {
+      "artifact": "record:b3e507271019d7ff608cf649a1c76dcec6b915790c1ed00e266775a76c5fbb64",
+      "base": "absent",
+      "new": "sha256:7497c896d2dcc183454eb0cae5345314db2a648312c08b719e8ad1bdb5aa59de"
+    },
+    {
+      "artifact": "settings",
+      "base": "absent",
+      "new": "sha256:38b7f03cfa4aaca7a6adcc25a50a209ba247e475dce24b3e98644a8c1552aa65"
+    }
+  ]
+}
