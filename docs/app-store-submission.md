@@ -35,8 +35,14 @@ The site is deployed by direct upload to Cloudflare Pages, from the
 3. In the Cloudflare dashboard: Workers & Pages › seneca › Custom domains › add
    `seneca.sglavoie.com`. The `sglavoie.com` zone is already on Cloudflare, so
    the DNS record is created for you.
-4. Email › Email Routing on `sglavoie.com`: route `seneca@sglavoie.com` to your
-   inbox, and send it a test message. The support page promises an answer.
+4. Mail for `sglavoie.com` is iCloud's (its MX records point to iCloud), so
+   `seneca@sglavoie.com` is an address added under iCloud Mail › Custom Email
+   Domain. Do not turn on Cloudflare Email Routing: it replaces the MX records.
+5. Cloudflare Access must not cover `seneca.sglavoie.com`. A wildcard
+   `*.sglavoie.com` application sends every page to a login, which a reviewer
+   cannot pass; give this hostname its own Access application with a Bypass
+   policy for Everyone. `curl -sI https://seneca.sglavoie.com/privacy/` must
+   answer 200, not 302.
 
 `website/_headers` sets a strict Content Security Policy; a page that needs a
 script or an outside resource must change it.
