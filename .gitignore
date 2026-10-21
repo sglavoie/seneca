@@ -17,3 +17,5 @@ ios/Packages/*/.swiftpm/
 # Go test binaries and Python caches.
 *.test
 __pycache__/
+
+.wrangler/
